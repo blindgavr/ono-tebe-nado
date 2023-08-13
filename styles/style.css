@@ -1,4 +1,4 @@
-body{
+body {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
@@ -25,7 +25,7 @@ body{
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  list-style-type: circle;    
+  list-style-type: circle;
 }
 
 .header_menu-item_active {
@@ -89,16 +89,16 @@ body{
   z-index: 1;
 }
 
-.accent-span{
+.accent-span {
   display: block;
   width: 1340px;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
-.text-right{
+.text-right {
   text-align: right;
 }
 
@@ -255,7 +255,7 @@ body{
   margin: 183px 50px 30px 50px;
   justify-content: center;
   align-content: center;
-  min-height: 487px;  
+  min-height: 487px;
 }
 
 .about_logo {
@@ -271,7 +271,7 @@ body{
 
 .about_logo-image {
   height: 114px;
-  width: 148px; 
+  width: 148px;
 }
 
 .about_title {
