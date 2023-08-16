@@ -38,8 +38,6 @@ body {
 }
 
 .header_address-list {
-  display: flex;
-  flex-direction: column;
   max-width: 240px;
   color: #000;
   font-family: Raleway, sans-serif;
@@ -47,7 +45,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24.3px; /* 135% */
-  list-style-type: none;
   justify-self: end;
 }
 
@@ -169,7 +166,6 @@ body {
   gap: 25px;
   justify-content: space-between;
   margin-bottom: 30px;
-  min-height: 100%;
 }
 
 .lots_card-list-item {
@@ -183,7 +179,7 @@ body {
 }
 
 .card {
-  min-height: 450px;
+  height: 450px;
   padding: 50px 40px 50px 40px;
   display: flex;
   flex-direction: column;
@@ -246,7 +242,6 @@ body {
   margin: 183px 50px 30px 50px;
   justify-content: center;
   align-content: center;
-  min-height: 487px;
 }
 
 .about_logo {
@@ -308,6 +303,18 @@ body {
   margin: 180px 50px 90px 50px;
   align-items: start;
   justify-content: space-between;
+}
+
+.footer_address-list {
+  max-width: 240px;
+  color: #000;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px; /* 135% */
+  list-style-type: none;
+  justify-self: end;
 }
 
 .footer_menu-list {
