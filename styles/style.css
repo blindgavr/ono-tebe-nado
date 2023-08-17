@@ -37,7 +37,7 @@ body {
   margin: 0 0 0 70px;
 }
 
-.header_address-list {
+.address {
   max-width: 240px;
   color: #000;
   font-family: Raleway, sans-serif;
@@ -303,18 +303,6 @@ body {
   margin: 180px 50px 90px 50px;
   align-items: start;
   justify-content: space-between;
-}
-
-.footer_address-list {
-  max-width: 240px;
-  color: #000;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24.3px; /* 135% */
-  list-style-type: none;
-  justify-self: end;
 }
 
 .footer_menu-list {
